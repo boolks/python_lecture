@@ -41,3 +41,24 @@ https://github.com/mongodb/mongo-python-driver
  ipython 기반 브라우저에서 사용하는 Editor
  chrome Browser에서 사용
 https://jupyter.org/
+
+Web Scraping
+1. naver 뉴스 제목 검색
+2. naver API : 파파고 번역서비스
+3. naver 웹툰 다운로드 & 업로드
+ :1, 2, 3 -> requests 연습
+4. 기상청 날씨데이터 검색
+ :4 -> beautifulsoup 연습
+5. pandas 연습
+ : 행정구역 정보 csv 데이터
+   pandas, matplotlib, seaborn
+6. Melon 100차트
+7. 국회의원 정보 검색
+ : requests, beautifulsoup, pandas, matplotlib, seaborn, pymysql(MariaDB), sqlalchemy
+ 8. 팟빵
+ : mp4 다운로드
+ 9. MongoDB
+ cine21 - 영화, 배우 정보 검색
+ 10. 머신러닝
+ 
+ 
