@@ -1,0 +1,43 @@
+1. requests : http client
+: built in module - urllib
+https://requests.readthedocs.io/en/master/
+
+2. beautifulsoup
+: HTML Parsing library
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+3. pandas : table data(표데이터) 처리
+: 데이터 분석, DB에 저장, 시각화 연동
+https://pandas.pydata.org/
+
+4. matplotlib
+: visualization(시각화), 파이썬으로 시각화
+https://matplotlib.org/
+
+5. seaborn
+: matplotlib 기반의 visualization library
+  그래픽이 더 예쁨
+https://seaborn.pydata.org/
+
+6. pymysql
+: mysql DB driver
+https://github.com/PyMySQL/PyMySQL/
+
+7. sqlalchemy
+: Object Relational Mapping(ORM) 기능
+  tabular data : DataFrame 객체
+  ORM Mapping Rule
+  class <=> table
+  object<=> row(Record)
+  variable <=> column
+https://www.sqlalchemy.org/
+
+8. pymongo
+: mongoDB driver
+https://github.com/mongodb/mongo-python-driver
+
+9. jupyter Notebook (jupyter lab)
+:CLI 방식 (python IDLE)
+ ipython 기반 브라우저에서 사용하는 Editor
+ chrome Browser에서 사용
+https://jupyter.org/
