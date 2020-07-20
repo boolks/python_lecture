@@ -1,0 +1,28 @@
+CSS selector
+
+<div id="myDiv">
+</div>
+<div class="myClass">
+</div>
+<ul>
+  <li>aaa</li>
+</ul>
+<a href="www.naver.com"></a>
+<img src="">
+
+1) tag selector
+ tag 명으로 특정 tag 선택
+ soup.select("li")
+ 
+2) id selector #
+ soup.select('#myDiv')
+ 
+3) class selector .
+ soup.select("div.myClass")
+ 
+4) attribute selector []
+soup.select("a[href='www.naveer.com']")
+
+*= : ~문자열과 부분매칭하는 모든 tag
+^= : ~문자열로 시작하는 모든 tag
+$= : ~문자열로 끝나는 모든 tag
