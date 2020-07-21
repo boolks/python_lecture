@@ -1,6 +1,6 @@
 http protocol
 http method
-GET : url에 필요한 정보를 append해서 보내는 방식, 조회
+GET : url에 필요한 정보를 append해서 보내는 방식, 조회, key=value 형식으로 query string을 
 POST : body stream에 데이터를 담아서 보내는 방식, 등록, 갱신
 
 http status code
