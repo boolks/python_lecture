@@ -1,0 +1,43 @@
+import pandas as pd
+
+data = pd.read_csv('data/data_draw_korea.csv')
+print(type(data))
+data.head()
+data.tail()
+
+# head, tail 함수의 default 값은 5
+
+# column 명
+print(data.columns)
+# index
+print(data.index)
+# 몇 행 몇 열
+print(data.shape)
+# info() - Dataframe의 meta 정보
+data.info()
+# describe() - 집계함수
+data.describe()
+
+print(type(data['인구수']))
+data['인구수'].head()
+print('최소', data['인구수'].min())
+print('평균', data['인구수'].mean())
+print('최대', data['인구수'].max())
+
+# 컬럼명 변경
+data = data.rename(columns={'Unnamed: 0':'seq'})
+data.head(2)
+
+# seq 컬럼을 index로 변경하기
+data = data.set_index('seq')
+data.head(2)
+
+# 컬럼의 특정 구간을 주려면 : 를 사용한다.
+# 인구수, 행정구역 광역시도 3개의 컬럼 선택
+data.loc[:,['인구수', '광역시도', '행정구역']].head(3)
+
+data.loc[:,'인구수':'면적'].head(3)
+# 1개 행만 선택
+data.loc[0,:]
+# 여러개의 특정행
+data.loc[[0, 3, 4],:]
