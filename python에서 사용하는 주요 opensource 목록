@@ -66,4 +66,6 @@ Web Scraping
  기존 웹 : Synchrounous 형식, request를 보내면 response가 올때까지 응답대기
  Ajax : response 가 오지 않아도 조작 가능
  javascript 형식으로 동적으로 만듦
- 
+ 비동기 통신을 담당하는 Javascript 객체 XHR
+ 서버로 부터 XML, Json 형태의 데이터만 받아서 동적으로 html tag를 생성한다.
+
